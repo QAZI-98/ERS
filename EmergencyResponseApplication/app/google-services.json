@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "963985829766",
+    "firebase_url": "https://emergencyresponseapplica-ae858.firebaseio.com",
+    "project_id": "emergencyresponseapplica-ae858",
+    "storage_bucket": "emergencyresponseapplica-ae858.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:39414de038330e376f8607",
+        "android_client_info": {
+          "package_name": "com.rapidbox.emergencyresponseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

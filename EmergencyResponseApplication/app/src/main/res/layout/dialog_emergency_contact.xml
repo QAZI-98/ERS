@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/finalBackground"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:textColor="@color/themecolor"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Person Name"
+            android:textColorHint="@color/finalColor"
+            android:textSize="14sp"
+            android:id="@+id/person"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:backgroundTint="@color/finalColor"
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Person Number"
+        android:textColorHint="@color/finalColor"
+        android:textSize="14sp"
+        android:id="@+id/phone"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:backgroundTint="@color/finalColor"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+
+
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discard"
+            android:background="@color/themecolor"
+            android:textColor="@color/backgroundColor"
+android:id="@+id/btndiscard"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto_condensed_bold"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/themecolor"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="Save"
+            android:id="@+id/btnsave"
+            android:textColor="@color/backgroundColor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

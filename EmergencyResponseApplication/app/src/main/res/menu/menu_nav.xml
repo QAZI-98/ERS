@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/idProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        ></item>
+    <item android:title="Home"
+        android:id="@+id/idHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:checked="true"
+
+
+        ></item>
+    <item android:title="Add Post"
+        android:id="@+id/idPost"
+        android:icon="@drawable/ic_add_circle_black_24dp"></item>
+</menu>

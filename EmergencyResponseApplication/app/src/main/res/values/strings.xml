@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ERS</string>
+    <string name="sign_in">Login</string>
+    <string name="title_activity_accident">Map</string>
+    <string name="title_activity_sendingaccidentreques">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_locationtracing">Map</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_crimereport">Map</string>
+    <string name="title_activity_hazardreport">Map</string>
+    <string name="title_activity_routedetectionmaps">Map</string>
+    <string name="title_activity_trace">trace</string>
+    <string name="title_activity_tracking_dispatcher">Map</string>
+    <string name="title_activity_userprofiletab">userprofiletab</string>
+    <string name="title_activity_area">Map</string>
+    <string name="title_activity_maps_activity">Map</string>
+
+
+    <string-array name="allergies">
+        <item>Drug</item>
+        <item>Dust</item>
+        <item>Skin</item>
+        <item>Food</item>
+    </string-array>
+
+
+</resources>

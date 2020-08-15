@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/finalBackground"
+    android:layout_width="match_parent"
+    android:id="@+id/root_list"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/finalBackground"
+        android:orientation="vertical"
+
+        android:padding="35dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/finalBackground"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/profileuser" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+
+                android:background="@color/finalBackground"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/reportypeshow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/finalBackground"
+                    android:text="report type"
+                    android:textColor="@color/themecolor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: "
+                        android:textSize="14sp"
+
+                        android:textColor="@color/themecolor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/finalBackground"
+                        android:text="rideId"
+                        android:textColor="@color/finalColor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ID: "
+                        android:textSize="14sp"
+
+                        android:textColor="@color/themecolor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rideId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/finalBackground"
+                        android:text="rideId"
+                        android:fontFamily="@font/roboto_condensed_bold"
+
+                        android:textColor="@color/finalColor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:layout_height="40dp"
+                    android:src="@drawable/seo" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="16sp"
+                    android:textColor="@color/themecolor"
+                    android:textStyle="bold"
+
+                    android:fontFamily="@font/roboto_condensed_bold"
+                    />
+
+                <TextView
+                    android:id="@+id/fromAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adddress: "
+                    android:textColor="@color/finalColor"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/roboto_condensed_bold"
+
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:layout_height="40dp"
+                    android:src="@drawable/seo" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: "
+                    android:textColor="@color/themecolor"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/roboto_condensed_bold"
+                    />
+
+                <TextView
+                    android:id="@+id/toAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_condensed_bold"
+                    android:text="Adddress: "
+                    android:textColor="@color/finalColor"
+                    android:textSize="14sp"
+
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/teamTypeID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Helper Team Information"
+                android:textColor="@color/finalColor"
+                android:textSize="14sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+
+                    />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Called"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:textColor="@color/finalColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>

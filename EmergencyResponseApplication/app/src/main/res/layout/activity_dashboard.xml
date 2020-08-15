@@ -1,0 +1,293 @@
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+android:fillViewport="true"
+android:background="@color/finalBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+
+    >
+    <LinearLayout
+        android:id="@+id/firstFirstlinear"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="2.0dip"
+        android:paddingBottom="0.5dip"
+        android:paddingRight="4.0dip"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="parent"
+
+
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+    <RelativeLayout
+        android:id="@+id/firstRel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/img2"
+            android:text="PANIC"
+            android:textColor="@color/finalColor"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:background="@drawable/custom_button"
+
+            />
+        <Switch
+            android:id="@+id/switch_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable"
+            android:checked="true"
+
+            android:layout_below="@id/img2"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    app:layout_constraintTop_toBottomOf="@+id/firstFirstlinear"
+  android:id="@+id/firstLinear"
+    android:layout_height="130dp">
+    <RelativeLayout
+        android:id="@+id/allow33d"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+
+        android:background="@drawable/ripple_effect"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/user"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgd"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgd"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/roboto_condensed_bold"
+android:layout_marginTop="8dp"
+            android:text="Profile"
+            android:textColor="@color/backgroundColor"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/allow33dd"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple_effect"
+
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/turnnotificationsonbutton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgdd"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/backgroundColor"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/imgdd"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondlinear"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="3.0dip"
+        android:paddingBottom="0.5dip"
+        android:paddingRight="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstLinear">
+
+        <RelativeLayout
+            android:id="@+id/newss"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgdddd"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/newsfeed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgdddd"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:textSize="18sp"
+
+                android:text="Newsfeed"
+                android:textColor="@color/backgroundColor"
+                 />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="3.0dip"
+        android:paddingBottom="0.5dip"
+        android:paddingRight="4.0dip"
+        android:layout_width="fill_parent"
+        app:layout_constraintTop_toBottomOf="@id/secondlinear"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/xt">
+
+        <RelativeLayout
+            android:id="@+id/routeNavigation"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:background="@drawable/ripple_effect"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/placeholder"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/imgdddddd"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigation"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/backgroundColor"
+                android:fontFamily="@font/roboto_condensed_bold"
+
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/imgdddddd"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/historyI"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center_horizontal"
+
+            >
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ancientscroll"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/imgdddddxd"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/backgroundColor"
+                android:fontFamily="@font/roboto_condensed_bold"
+
+                android:textSize="18sp"
+
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/imgdddddxd"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navbot"
+        android:layout_gravity="bottom"
+        design:menu="@menu/menu_nav"
+        app:itemTextColor="@color/finalColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="@color/themecolor"
+
+        ></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,244 @@
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:background="@color/finalBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/fileimage"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="We have only what we give! Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/finalColor"
+
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/fileimage"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/firstNameLayout"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/finalColor"
+        android:theme="@style/EditTextTheme"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:passwordToggleEnabled="false"
+        app:passwordToggleTint="@color/themecolor"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_edit"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/robotoregular"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:textSize="12sp"
+            android:theme="@style/AppTheme.EditText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+      app:layout_constraintTop_toBottomOf="@id/firstNameLayout"
+        android:textColorHint="@color/finalColor"
+        app:passwordToggleEnabled="false"
+        android:id="@+id/lastNameLayout"
+        android:theme="@style/EditTextTheme"
+        app:passwordToggleTint="@color/themecolor"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_edit"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Last Name"
+            android:theme="@style/AppTheme.EditText"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            android:textColor="@color/finalColor"
+            android:textColorHint="@color/finalColor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/divider"
+        app:layout_constraintTop_toBottomOf="@id/lastNameLayout"
+        app:passwordToggleEnabled="false"
+        android:id="@+id/emailLayout"
+        app:passwordToggleTint="@color/finalColor"
+        android:theme="@style/EditTextTheme"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Email"
+            android:theme="@style/AppTheme.EditText"
+            android:textSize="12sp"
+            android:textColor="@color/finalColor"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/finalColor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+app:layout_constraintTop_toBottomOf="@id/emailLayout"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/divider"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/passwordLayout"
+        android:theme="@style/EditTextTheme"
+        app:passwordToggleTint="@color/finalColor"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:theme="@style/AppTheme.EditText"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Password"
+            android:textSize="12sp"
+            android:textColor="@color/finalColor"
+            android:inputType="textPassword"
+            android:textColorHint="@color/finalColor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordAgainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/divider"
+        app:passwordToggleEnabled="true"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/passwordLayout"
+
+        android:theme="@style/EditTextTheme"
+        app:passwordToggleTint="@color/finalColor"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/againPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:theme="@style/AppTheme.EditText"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Again Password"
+            android:textSize="12sp"
+android:textColor="@color/finalColor"
+            android:inputType="textPassword"
+            android:textColorHint="@color/finalColor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/termsconditioncheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@color/finalColor"
+
+        android:fontFamily="@font/robotoregular"
+        android:text="Agree with term and condition by Emergency Response System"
+        android:textColor="@color/finalColor"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/passwordAgainLayout"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/themecolor"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:onClick="signupCompleteion"
+        android:padding="5dp"
+        android:text="Sign up"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="12sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/termsconditioncheckbox">
+
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Already have an Account! Sign In"
+        android:textAlignment="center"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:fontFamily="@font/robotoregular"
+        android:textColor="@color/finalColor"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/signupBtn"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

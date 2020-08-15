@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/finalBackground</item>
+        <item name="colorPrimaryDark">@color/finalBackground</item>
+        <item name="colorAccent">@color/finalBackground</item>
+        <item name="android:textColorPrimary">@color/finalColor</item>
+        <item name="android:fontFamily">@font/robotoregular</item>
+        <item name="android:textColor">@color/finalColor</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarItemBackground">@color/finalBackground</item>
+        <item name="actionMenuTextColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/finalBackground</item>
+    </style>
+
+
+</resources>

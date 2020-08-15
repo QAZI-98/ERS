@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/finalBackground"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/finalBackground"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/finalColor"
+            android:hint="Name"
+
+            app:passwordToggleEnabled="false"
+            android:id="@+id/nameLayout"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:hint=""
+                android:textColor="@color/finalColor"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                android:textColorHint="@color/finalColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/finalColor"
+            android:hint="Email Address"
+            app:passwordToggleEnabled="false"
+            android:id="@+id/emailLayout"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:enabled="false"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:textSize="14sp"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="@color/finalColor"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/finalColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/finalColor"
+         android:hint="Phone Number"
+            android:focusable="false"
+            app:passwordToggleEnabled="false"
+            android:id="@+id/PhoneLayout"
+            android:background="@color/finalBackground"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:textColor="@color/finalColor"
+                android:inputType="phone"
+                android:textColorHint="@color/finalColor" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@color/themecolor"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:padding="2dp"
+            android:text="Update"
+
+            android:textAlignment="center"
+            android:textColor="@color/backgroundColor"
+            android:textSize="14sp"
+            android:textStyle="bold"
+         >
+
+
+        </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/finalBackground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Medical Condition"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:textColor="@color/themecolor"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_alzeimers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alzeimers"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:textColor="@color/finalColor"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_cancer"
+        android:layout_width="match_parent"
+        android:textColor="@color/finalColor"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        android:text="Cancer"
+        android:fontFamily="@font/roboto_condensed_bold"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_cholesterol"
+        android:layout_width="match_parent"
+        android:textColor="@color/finalColor"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Cholesterol"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_cold"
+        android:layout_width="match_parent"
+        android:textColor="@color/finalColor"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        android:text="Cold Flu"
+        android:fontFamily="@font/roboto_condensed_bold"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_depression"
+        android:layout_width="match_parent"
+        android:textColor="@color/finalColor"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        android:text="Depression"
+        android:fontFamily="@font/roboto_condensed_bold"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_diabetes"
+        android:layout_width="match_parent"
+        android:textColor="@color/finalColor"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        android:text="Diabetes"
+        android:fontFamily="@font/roboto_condensed_bold"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@+id/checkbox_pregnant"
+        android:layout_width="match_parent"
+        android:textColor="@color/finalColor"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/finalColor"
+        android:textColorHint="@color/finalColor"
+        android:text="Pregnant"
+        android:fontFamily="@font/roboto_condensed_bold"
+        />
+
+
+
+
+
+</LinearLayout>

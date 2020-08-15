@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/finalBackground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Blood Type"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:textColor="@color/themecolor"
+        android:textSize="16sp"
+
+        />
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/checkbox_AB_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AB+"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:textColor="@color/finalColor"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            />
+        <RadioButton
+            android:id="@+id/checkbox_AB_minus"
+            android:layout_width="match_parent"
+            android:textColor="@color/finalColor"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:text="AB-"
+            android:fontFamily="@font/roboto_condensed_bold"
+            />
+        <RadioButton
+            android:id="@+id/checkbox_B_plus"
+
+            android:layout_width="match_parent"
+            android:textColor="@color/finalColor"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:text="B+"
+
+            />
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:textColor="@color/finalColor"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox_B_minus"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:text="B-"
+            android:fontFamily="@font/roboto_condensed_bold"
+
+            />
+        <RadioButton
+            android:id="@+id/checkbox_A_plus"
+            android:layout_width="match_parent"
+            android:textColor="@color/finalColor"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:text="A+"
+            android:fontFamily="@font/roboto_condensed_bold"
+
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:textColor="@color/finalColor"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:text="A-"
+            android:id="@+id/checkbox_A_minus"
+            android:fontFamily="@font/roboto_condensed_bold"
+
+            />
+        <RadioButton
+            android:id="@+id/checkbox_O_plus"
+            android:layout_width="match_parent"
+            android:textColor="@color/finalColor"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/finalColor"
+            android:textColorHint="@color/finalColor"
+            android:text="O+"
+            android:fontFamily="@font/roboto_condensed_bold"
+
+            />
+<RadioButton
+    android:id="@+id/checkbox_O_minus"
+    android:layout_width="match_parent"
+    android:textColor="@color/finalColor"
+    android:layout_height="wrap_content"
+    android:buttonTint="@color/finalColor"
+    android:textColorHint="@color/finalColor"
+    android:text="O-"
+    android:fontFamily="@font/roboto_condensed_bold"
+
+ />
+
+    </RadioGroup>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addpost"
+android:id="@+id/linearMain"
+    android:background="@color/finalBackground"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/finalBackground"
+        android:id="@+id/linear_prog"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+
+        <ProgressBar
+
+
+            android:visibility="gone"
+            android:id="@+id/progressBar1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:indeterminateDrawable="@drawable/progress"
+
+            android:layout_gravity="center_horizontal"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="385dp"
+        android:layout_height="212dp"
+        android:layout_below="@id/linear_prog"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+
+        android:src="@drawable/photoframe"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/take_photo"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbuttonselector"
+        android:textColor="@color/backgroundColor"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_white_camera"
+        android:text="choose image"
+        />
+    <Spinner
+
+        android:layout_gravity="center"
+        android:id="@+id/spinner1"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+
+        android:background="@color/themecolor" />
+
+
+
+
+
+    <EditText
+        android:inputType="textAutoComplete"
+
+
+        android:id="@+id/et2"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:hint="Description"
+
+        android:textColorHint="@color/finalColor"
+        android:background="@color/finalBackground"
+        android:textColor="@color/finalColor"
+        android:padding="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:textColor="@color/backgroundColor"
+        android:background="@drawable/roundbuttonselector"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_upload"
+        android:text="Post"
+        />
+
+
+</LinearLayout>

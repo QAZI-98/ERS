@@ -1,0 +1,86 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin:0 auto;
+
+}
+body {
+    background-color: #303030;
+}
+.box-wrapper {
+    background-color: #303030;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-color: #EB7D16;
+    transform: translate(-50%, -50%);
+    border:1px;
+    margin: 0 auto;
+}
+    .box-wrapper ul {
+        list-style: none;
+        width: 100%;
+        height: 20px;
+        margin-top:20px;
+        
+    }
+.textbox-element {
+    width: 70%;
+    padding: 5px;
+    
+}
+.labelVal {
+    font-family: 'Roboto Slab', serif;
+    color: #c5c5c5;
+    font-size:12px;
+
+}
+.realBtn {
+    width: 100px;
+    height: 50px;
+    background-color: gainsboro;
+    color: white;
+}
+.btn {
+    background-color: #EB7D16;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    border: 0px solid;
+    float: right;
+    margin-right: 80px;
+    font-family: 'Roboto Slab', serif;
+}
+btn:active {
+    background-color: #666;
+    color: white;
+}
+   active, .btn:hover {
+        background-color: #666;
+        color: white;
+    }
+
+
+.row.content {
+    height: 550px
+}
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+@media screen and (max-width: 767px) {
+    .row.content {
+        height: auto;
+    }
+}
+#map {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

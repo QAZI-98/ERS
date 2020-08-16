@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="fullsite.master.cs" Inherits="emergencyresponsesystem.fullsite" %>
+
+<!DOCTYPE html5>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://kit.fontawesome.com/b6d29a11d2.js"></script>
+  <link href=“https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css” rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles/dashboard.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+   <style>
+.dropbtn {
+  background-color: black;
+  color: white;
+padding: 11px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 3px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+ <form id="form1" runat="server">
+            
+             <div class="wrapper">
+                 <div class="sidebar">
+                     <h2>Dashboard</h2>
+                   
+                     <ul>
+                         <li><a href="dashboard.aspx"><i class="fas fa-home"></i>Home</a></li>
+                         <li><a href="liveview.aspx"><i class="fas fa-map-marker-alt"></i>Live Map</a></li>
+                         <li><a href="statistics.aspx"><i class="far fa-chart-bar"></i>Statistics</a></li>
+                        
+                     </ul>
+                 </div>
+     
+            <div class="main_content"> 
+                <div class="header">
+                   <img src="images/logofinal.png" />
+                   
+                         <div class="profilearea">
+        
+                             <div class="dropdown">
+  <button class="dropbtn"><i class="fas fa-user-circle fa-lg"></i> 
+      <i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-content">
+  <a href="dispatcher.aspx">Change Password</a>
+<asp:Button ID="Button1" class="btn" runat="server" Text="Logout" OnClick="Button1_Click" />
+ 
+  </div>
+</div>
+        
+                                       </div>
+              
+                </div>
+                <div class="info">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+             </div>
+                </div>
+     </div>
+     </form>
+    <script>
+        function logout() {
+            firebase.auth().signOut().then(function () {
+                    
+            }).catch(function (error) {
+
+                });
+
+        }
+    </script>
+</body>
+    
+</html>

@@ -14,7 +14,7 @@ namespace emergencyresponsesystem
         public IFirebaseConfig conenctFirebase() {
 
             config = new FirebaseConfig();
-               config.AuthSecret  = "obec5yDcjYDbVn9WLxNyuftFdxOKsvNS24aigzYU";
+               config.AuthSecret  = your key here";
            config.BasePath = "https://emergencyresponseapplica-ae858.firebaseio.com/";
             return config;
         }

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/finalBackground"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/noth2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="16sp"
+            android:text="Destination"  />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/noth5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="16sp"
+            android:text="You have been arrived at pickup location"  />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/noth3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="14sp"
+            android:text="Status" />
+        <TextView
+            android:id="@+id/notarrieved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:text="Arrived" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/themecolor"
+            android:textColor="@color/backgroundColor"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Keep Viewing" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:background="@color/themecolor"
+            android:textColor="@color/backgroundColor"
+            android:layout_marginLeft="10dp"
+            android:padding="4dp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_height="wrap_content"
+            android:text="Done Service" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

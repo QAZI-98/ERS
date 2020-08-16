@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/finalBackground"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="User Details"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Username"
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtName"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Emai"
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:id="@+id/txtEmail"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Contact"
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtPhone"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Blood Type"
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtBlood"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Medical Condition"
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtMedical"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Allergy"
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtAllergy"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Emergency Contact "
+            android:textAlignment="center"
+            android:textSize="16sp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Person Name "
+            android:textSize="14sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtPersonName"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/themecolor"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Person Contact "
+            android:textSize="14sp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finalColor"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="14sp"
+            android:id="@+id/txtPersonContact"
+            />
+
+    </LinearLayout>
+</LinearLayout>

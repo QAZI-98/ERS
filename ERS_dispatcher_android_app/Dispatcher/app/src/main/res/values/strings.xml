@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dispatcher</string>
+    <string name="title_activity_fire_fighter__dispatcher_map">Map</string>
+    <string name="title_activity_maps_activity">Map</string>
+    <string name="title_activity_medical_team_dispatcher">Map</string>
+    <string name="title_activity_police_team_dispatcher">Map</string>
+    <string name="maps_api_key">AIzaSyBljaPNDPxsTh5MnpeVwBS9x7rlAwThU08</string>
+    <string-array name="dispatcher_array">
+        <item>Select Type</item>
+
+        <item>Ambulance</item>
+        <item>Police</item>
+        <item>Firefighter</item>
+
+    </string-array>
+
+</resources>

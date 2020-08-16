@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/idProfile"
+        android:title="Profile"
+        android:icon="@drawable/maleusershadow"
+
+        ></item>
+    <item android:title="Distance"
+        android:id="@+id/idDistance"
+        android:icon="@drawable/trajectory"
+
+
+
+
+        ></item>
+    <item android:title="Log out"
+        android:id="@+id/idLogout"
+        android:icon="@drawable/signoutoption"></item>
+</menu>

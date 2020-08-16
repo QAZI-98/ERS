@@ -1,0 +1,185 @@
+{
+  "project_info": {
+    "project_number": "963985829766",
+    "firebase_url": "https://emergencyresponseapplica-ae858.firebaseio.com",
+    "project_id": "emergencyresponseapplica-ae858",
+    "storage_bucket": "emergencyresponseapplica-ae858.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:b0e03987673af6a76f8607",
+        "android_client_info": {
+          "package_name": "com.example.DispatcherModule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:3825db72b7785ce36f8607",
+        "android_client_info": {
+          "package_name": "com.example.dispatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:39414de038330e376f8607",
+        "android_client_info": {
+          "package_name": "com.example.emergencyresponseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:40407be29d93d44a6f8607",
+        "android_client_info": {
+          "package_name": "com.example.firefighterdispatcherapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:814eda8a1a9092da6f8607",
+        "android_client_info": {
+          "package_name": "com.example.policedispatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963985829766:android:a831d6b17583a0cc6f8607",
+        "android_client_info": {
+          "package_name": "com.example.policedispatcherapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8nuzHS4bx9TBfOG1UUJNvH9GsIKPOXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963985829766-a9dmbucal8hbtkqg6ddppldr276vvtoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
